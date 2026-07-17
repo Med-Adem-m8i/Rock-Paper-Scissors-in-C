@@ -1,0 +1,24 @@
+# CMake build directory
+cmake-build-*/
+
+# IDE files
+.idea/
+*.iml
+
+# Compiled files
+*.o
+*.exe
+*.out
+*.so
+*.dylib
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeScripts/
+
+# OS files
+.DS_Store
+Thumbs.db
