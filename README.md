@@ -60,4 +60,4 @@ cmake --build .
 ```
 
 ## License 📄
-No license specified yet — add one (e.g. MIT) if you want others to freely reuse this code.
+This project is licensed under the [MIT License](LICENSE).
