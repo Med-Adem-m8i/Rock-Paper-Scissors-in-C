@@ -41,3 +41,23 @@ A simple command-line Rock Paper Scissors game written in C, built with CLion.
 - Or use the shortcut: `Shift+F9`
 
 ## Project Structure 📁
+```
+.
+├── CMakeLists.txt   # Build configuration
+├── main.c           # Program entry point / game loop
+├── game.c           # Game logic (winner logic, I/O, scoring)
+├── game.h           # Function prototypes and constants
+└── README.md
+```
+
+## Building from the command line 💻
+If you don't want to use CLion, you can build with CMake directly:
+```bash
+mkdir build && cd build
+cmake ..
+cmake --build .
+./RockPaperScissors
+```
+
+## License 📄
+No license specified yet — add one (e.g. MIT) if you want others to freely reuse this code.
